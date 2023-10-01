@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="display_property.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>display_property</title>
+    <style>
+        h1{
+	        color: solid black;
+	        display: inline;
+        }
+        #a{
+	        height: 200px;
+	        width: 200px;
+	        border-color: red;
+	        border-style:solid;
+	        float: left;
+        }
+        #b{
+	        height: 200px;
+	        width: 200px;
+	        border-color: blue;
+	        float: left;
+	        border-style:solid;
+	        visibility: hidden;
+        }
+        #c{
+            height: 200px;
+            width: 200px;
+            border-color: green;
+            float: left;
+            border-style:solid;
+            position: absolute;
+            left: 200px;
+        }
+        #d{
+            height: 200px;
+            width: 200px;
+            border-color: orange;
+            float: left;
+            border-style:solid;
+            position: relative;
+            top: 200px;
+        }
+
+        /*static*/
+        #a1{
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            border: 2px solid red;
+            float: left;
+        }
+        #b1{
+            height: 200px;
+            width: 200px;
+            background-color: greenyellow;
+            border: 2px solid red;
+            float: left;
+            position: relative;
+            top: 20px;
+            right: 30px;
+        }
+        #c1{
+            height: 200px;
+            width: 200px;
+            background-color: indigo;
+            border: 2px solid red;
+            float: left;
+        }
+        #c2{
+            height: 200px;
+            width: 200px;
+            background-color: indigo;
+            border: 2px solid red;
+            float: left;
+        }
+        #d1{
+            height: 200px;
+            width: 200px;
+            background-color: lightcyan;
+            border: 2px solid red;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+	<h1>hacker</h1>
+	
+	<div id="a"></div>
+	<div id="b"></div>
+	<div id="c"></div>
+	<div id="d"></div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- <h1>static</h1> -->
+	<!-- static means default position of webpage i.e.,top- left -->
+	<div id="a1">static</div>
+	<!-- <h1>relative</h1> -->
+	<!-- relative position i.e, it moves from its original position -->
+	<div id="b1">relative</div>
+	<div id="c1">
+	<div id="c2">absolute</div>
+	</div>
+	<div id="d1">fixed</div>
+	<!-- note:
+	move either top or left
+	or
+	move either down or right -->
+
+</body>
+</html>

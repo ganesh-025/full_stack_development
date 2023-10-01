@@ -1,0 +1,12 @@
+.cls{
+    text-align: center;
+    color: red;
+    background-color: blue; 
+    text-decoration: underline;
+}
+.sharma{
+    text-align: center;
+    color: red;
+    background-color: blue; 
+    display: block;
+}
