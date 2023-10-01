@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="box.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>box model</title>
+    <style>
+        #a{
+	        height: 200px;
+	        width: 200px;
+	        background-color: blue;
+	        margin: 20px;
+	        padding: 5px;
+	        border: 2px solid red;
+	        float: left;
+        }
+        /*it doesnot show border value*/
+        #b{
+	        height: 200px;
+	        width: 200px;
+	        background-color: blue;
+	        margin: 20px;
+	        padding: 5px;
+	        outline: 2px solid red;
+	        float: left;
+        }
+
+        #c{
+	        height: 200px;
+	        width: 200px;
+	        background-color: blue;
+	        box-shadow: 2px 2px 2px red,8px 8px 8px yellow;
+
+        }
+
+        #d{
+            list-style-type: 
+            circle;
+        }
+        
+        #box{
+
+            height: 200px;
+            width: 250px;
+            border-style: solid;
+            border-color:black;
+            padding-top: 90px;
+            padding-left: 100px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+	<h1>box model</h1>
+	<div id="a"></div>
+	<div id="b"></div>
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+	<h1>box shadow</h1>
+	<div id="c"></div>
+	<br><br>
+	<h1> in css</h1>
+	<ol id="d">
+		<li>ECE-A</li>
+		<li>ECE-B</li>
+		<li>ECE-C</li>
+		<li>ECE-C</li>
+		<li>ECE-C</li>
+	</ol>
+    <h1>border</h1>
+    <div id="box">css</div>
+</body>
+</html>

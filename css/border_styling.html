@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        .task1{             
+            height: 400px;
+            width: 400px;
+            background-image: url('image/imgae1.webp');
+            background-color: yellow;
+            border-style:double;
+            border-width:50px;
+            border-color:black whitesmoke;
+            border-top-style: groove;
+            border-right-style: groove;
+            border-bottom-style: groove;
+            border-left-style: groove;
+        	border-radius:100%;
+        }
+        .task2{
+
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            outline:2px dotted red ;
+            padding: 10px;
+
+        }
+
+        .task3{
+            height: 200px;
+	        width: 400px;
+	        background-color: yellow;
+	        outline:2px dotted red ;
+	        padding: 10px;
+	        aspect-ratio:1.5;
+            background:
+            radial-gradient(circle 30px at top    left ,#0000 98%,red  ) top    left,
+            radial-gradient(circle 30px at top    right,#0000 98%,blue ) top    right,
+            radial-gradient(circle 30px at bottom left ,#0000 98%,green) bottom left,
+            radial-gradient(circle 30px at bottom right,#0000 98%,purple) bottom right;
+            background-size:51% 51%;
+            background-repeat:no-repeat;
+
+        }
+
+        .task4{
+            height: 200px;
+	        width: 400px;
+            /*	border-style:solid;
+	        border-color: pink;*/
+	        border-width: 10px;
+	        box-shadow: 0 0 0 10px red;
+	        outline: dashed 10px blue;
+	        padding: 50px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Task-1</h1>
+    <div class="task1"></div>
+
+    <h3> Task-2</h3>
+    <div class="task2">
+        <h2 align="center">ganesh</h2>
+    </div>
+
+    <h3> Task-3</h3>
+    <div class="task3">
+        <p align="center">ganesh</p>
+    </div>
+
+    <h3>task-4</h3>
+    <p class="task4">
+        clipped backgrounds+border
+    </p>
+
+</body>
+</html>
